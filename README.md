@@ -1,2 +1,2 @@
-# Gustav's dotfiles)
+# Gustav's dotfiles
 These are my dotfiles!
