@@ -1,15 +1,24 @@
-alias update='sudo apt update -y && sudo apt upgrade -y'
-alias install='sudo apt install'
-alias search='apt search'
+#ubuntu related
+#alias update='sudo apt update -y && sudo apt upgrade -y'
+#alias install='sudo apt install'
+#alias search='apt search'
+
+#arch related
+alias update sudo pacman -Syyu
+
+#application related
 alias n='sudo nano'
 alias v='sudo vi'
 alias cssh='ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null'
-alias lll='ls -l'
 
+#git related
 alias gits='git status'
 alias gitch="git checkout"
 alias gitco="git commit -am"
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+
+
+# shell stuff
+alias l='ls -CFh'
+alias la='ls -Ah'
+alias ll='ls -alFh'
+alias lll='ls -lh'
