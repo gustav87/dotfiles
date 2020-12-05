@@ -4,7 +4,7 @@
 #alias search='apt search'
 
 #arch related
-alias update sudo pacman -Syyu
+alias update='sudo pacman -Syyu'
 
 #application related
 alias n='sudo nano'
